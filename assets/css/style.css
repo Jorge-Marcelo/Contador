@@ -23,7 +23,7 @@ font-family: 'Bebas Neue', sans-serif;
 
 /*Background color*/
 body{
-background-color: rgb(62, 223, 252);
+background-color: rgb(62, 90, 252);
 }
 
 /*Formulario*/
@@ -56,7 +56,7 @@ margin-bottom: 10px;
 
 /*Textos*/
 h1{
-color: rgb(0, 174, 255);
+color: rgb(0, 26, 255);
 font-size: 2.5em;
 font-weight: 900;
 margin: 10px;
@@ -64,14 +64,14 @@ margin: 10px;
 
 
 h2{
-color: rgb(0, 140, 255);
-font-size: 2em;
+color: rgb(17, 0, 255);
+font-size: 1.6em;
 font-weight: 900;
 margin: 10px;
 }
 
 p{
-color: rgb(0, 140, 255);
+color: rgb(4, 0, 255);
 font-size: 3em;
 font-weight: 900;
 }
@@ -82,7 +82,7 @@ font-weight: 900;
 .action{
 background: transparent;
 border: 2px solid rgb(255, 255, 255);
-background-color: rgb(0, 89, 255);
+background-color: rgb(47, 0, 255);
 }
 
 .action:hover{
@@ -111,13 +111,13 @@ cursor: pointer;
 /*Classes de redes sociais*/
 .social{
 background: transparent;
-border: 2px solid rgb(2, 101, 182);
+border: 2px solid rgb(2, 5, 182);
 background-color: white;
 transition: transform 0.3s ease-in-out;
 }
 
 .social:hover{
-background-color: rgb(96, 213, 248);
+background-color: rgb(96, 132, 248);
 border: 2px solid rgb(255, 255, 255);
 animation: button 0.3s ease-in-out forwards;
 }
@@ -130,5 +130,26 @@ transform: translateY(0);
 }
 to{
 transform: translateY(-20px);
+}
+}
+
+/*Animação com sprite*/
+.animation{
+
+
+
+width: calc(400px/4);
+height: 97px;
+background: url("../anim/Sonic2.png");
+animation: animation 1s steps(4) infinite;
+}
+
+
+@keyframes animation {
+from{
+background-position: 0;
+}
+to{
+background-position: 400px;
 }
 }
