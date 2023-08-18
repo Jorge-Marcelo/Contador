@@ -138,10 +138,10 @@ transform: translateY(-20px);
 
 
 
-width: calc(400px/4);
-height: 97px;
+width: calc(800px/8);
+height: 101px;
 background: url("../anim/Sonic2.png");
-animation: animation 1s steps(4) infinite;
+animation: animation 1s steps(8) infinite;
 }
 
 
@@ -150,6 +150,6 @@ from{
 background-position: 0;
 }
 to{
-background-position: 400px;
+background-position: 800px;
 }
 }
