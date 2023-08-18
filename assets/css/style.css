@@ -135,9 +135,6 @@ transform: translateY(-20px);
 
 /*Animação com sprite*/
 .animation{
-
-
-
 width: calc(800px/8);
 height: 101px;
 background: url("../anim/Sonic2.png");
