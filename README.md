@@ -1,6 +1,6 @@
 # Contador
 ## Contador HTML CSS, CSS Animation e Javascript
-![image](https://github.com/Jorge-Marcelo/Contador/assets/49494259/839eedfc-584e-46f6-95f1-148eb5536b93)
+![image](https://github.com/Jorge-Marcelo/Contador/assets/49494259/04b9656a-79b9-418a-b8ce-0c10792fe1a1)
 
 ## Ferramentas Utilizadas 
 - HTML
